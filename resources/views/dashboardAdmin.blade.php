@@ -31,8 +31,8 @@
                     <div class="col4">
                         <div class="menu">
                             <ul>
-                                <li class="nav-item"><a class="nav-link" href="#Pesanan">Pesanan</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#Status Pengiriman">Status Pengiriman</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#Daftar Transaksi">Daftar Transaksi</a></li>
+                                {{-- <li class="nav-item"><a class="nav-link" href="#Status Pengiriman">Status Pengiriman</a></li> --}}
                             </ul>
                         </div>
                     </div>
@@ -94,7 +94,7 @@
             </div>
         </div>
 
-    <section class="page-section" id="Pesanan">
+    <section class="page-section" id="Daftar Transaksi">
     <div class="col-md-3 col-sm-6 col-xs-12">
         <div class="panel panel-danger panel-colorful">
             <div class="panel-body text-center">
