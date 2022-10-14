@@ -138,7 +138,7 @@ input[type="submit"]:hover{
         </div>
         <input type="submit" value="Change Password"> 
         <div class="signup_link">
-          Not a member? <a href="login2">Signup</a>
+          Not a member? <a href="registration">Signup</a>
         </div>
       </form>
     </div>

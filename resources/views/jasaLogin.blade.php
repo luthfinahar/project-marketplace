@@ -17,7 +17,7 @@
     <!-- Hero -->
     <div class="hero">
         <!-- Nav -->
-        @include('partials.navbar')
+        @include('partials.navbarLogin')
         <!-- Nav -->
     </div>
     <section class="py-5">

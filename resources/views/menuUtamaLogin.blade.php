@@ -30,11 +30,10 @@
                    <div class="col4">
                        <div class="menu">
                            <ul>
-                               <li><a href="profil">Profil</a></li>
-                               <li><a href="menu">Menu</a></li>
-                               <li><a href="produk">Produk</a></li>
-                               <li><a href="jasa">Jasa</a></li>
-                               <li><a href="keranjang">Keranjang</a></li>
+                            <li><a href="login">Login <i class="bi bi-person-circle"></i></a></li>
+                            <li><a href="/">Menu</a></li>
+                            <li><a href="produkLogin">Produk</a></li>
+                            <li><a href="jasaLogin">Jasa</a></li>                              
                            </ul>
                        </div>
                    </div>
@@ -107,5 +106,6 @@
            </div>
        </div>
    </div>
+   
 </body>
 </html>

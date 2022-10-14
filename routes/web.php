@@ -14,6 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    return view ('menuUtamaLogin');
+});
+
+Route::get('/menu', function () {
     return view ('menuUtama');
 });
 
@@ -21,11 +25,11 @@ Route::get('/login', function () {
     return view ('login');
 });
 
-Route::get('/login2', function () {
-    return view ('login2');
+Route::get('/registration', function () {
+    return view ('registration');
 });
 
-Route::get('/login3', function () {
+Route::get('/forgot', function () {
     return view ('login_forgot');
 });
 
@@ -49,7 +53,14 @@ Route::get('/dashboard', function () {
     return view('dashboardAdmin');
 });
 
-
 Route::get('/profil', function () {
     return view('profil');
+});
+
+Route::get('/produkLogin', function () {
+    return view ('produkLogin');
+});
+
+Route::get('/jasaLogin', function () {
+    return view ('jasaLogin');
 });

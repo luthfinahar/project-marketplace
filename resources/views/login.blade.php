@@ -137,11 +137,11 @@ input[type="submit"]:hover{
           <label>Password</label>
         </div>
         <div class="pass"> 
-            <a href="login3">Forgot Password?</a>
+            <a href="forgot">Forgot Password?</a>
         </div>
         <input type="submit" value="Login">
         <div class="signup_link">
-          Not a member? <a href="login2">Signup</a>
+          Not a member? <a href="registration">Signup</a>
         </div>
       </form>
     </div>
