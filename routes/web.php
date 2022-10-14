@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view ('menuUtama');
 });
 
 Route::get('/login', function () {
@@ -27,10 +27,6 @@ Route::get('/login2', function () {
 
 Route::get('/login3', function () {
     return view ('login_forgot');
-});
-
-Route::get('/menu', function () {
-    return view ('menuUtama');
 });
 
 Route::get('/produk', function () {
