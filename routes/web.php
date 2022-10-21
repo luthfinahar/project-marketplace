@@ -64,3 +64,7 @@ Route::get('/produkLogin', function () {
 Route::get('/jasaLogin', function () {
     return view ('jasaLogin');
 });
+
+Route::get('/adminTransaksi', function () {
+    return view ('adminTransaksi');
+});
